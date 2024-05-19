@@ -47,3 +47,6 @@ The simulation continues until there are no humans left in the grid.
 
 The leapfrog method is adapted here to interleave the movements of zombies and humans to simulate their interaction dynamically.
 
+### output : 
+At the end of simulation it will print the winner name. 
+The final output is stored is stored in the csv file.
