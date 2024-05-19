@@ -10,7 +10,7 @@ may assume the following differential equations to represent the rate of changes
 The game ends when one of them (either humans or zombies) reaches zero and the other side is the winner. 
 Write the values of H and Z at different values of t in a csv file, each line contains an entry for a t.
 
-##  Approach : 
+##  Approach :  use leapforg simulation method.
 # Humans vs. Zombies Simulation
 
 This project simulates the spread of zombies in a grid populated with humans using the leapfrog method. The simulation proceeds by interleaving updates of human and zombie positions.
