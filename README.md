@@ -30,18 +30,16 @@ Zombies can move in four directions: up, down, left, or right. If a zombie moves
 ### Movement Rules
 
 1. **Zombies**:
-   - Zombies move first.
+   - Zombies shoot humans.
    - A zombie tries to infect any adjacent human.
    - Newly infected humans become zombies.
 
 2. **Humans**:
-   - Humans move after zombies.
-   - A human tries to move to an adjacent empty cell.
-   - If no empty cell is available, the human stays in place.
+   - Humans shoot zombies.
 
 ### Simulation Loop
 
-The simulation continues until there are no humans left in the grid.
+The simulation continues until there are no humans left in the game.
 
 ### Leapfrog Method
 
